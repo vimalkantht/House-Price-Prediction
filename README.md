@@ -11,5 +11,10 @@
 Create new Environment 
 
 ```
-conda create -p venv python==3.7 -y
+conda create --name venv python==3.7 -y
+
+conda create --prefix C:\Users\vimal\Documents\House-Price-Prediction python=3.7
+
+conda create --prefix=C:\Users\vimal\Documents\House-Price-Prediction\myenv python==3.7 -y
+
 ```
